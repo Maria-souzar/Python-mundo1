@@ -1,0 +1,10 @@
+n = input('Digite alguma coisa: ')
+print('O tipo primitivo desse valor é', type(n))
+print('É alfanúmerico?', n.isalnum())
+print('É alfabético?', n.isalpha())
+print('É númerico?', n.isnumeric())
+print('Só tem espaços?', n.isspace())
+print('Está em maiúsculas?', n.isupper())
+print('Está em minúsculas?', n.islower())
+print('Está capitalizada?', n.istitle())
+
